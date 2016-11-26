@@ -5,7 +5,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using Util;
 
-public class BodySwapper : MonoBehaviour {
+public class ModelSwapper : MonoBehaviour {
   private SkinnedMeshRenderer[] m_Models;
   private Material[] m_Materials;
   private Material[] m_ValidMaterials;
