@@ -1,0 +1,85 @@
+{
+	"root[2]/Canvas": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.Canvas",
+			"UnityEngine.UI.CanvasScaler",
+			"UnityEngine.UI.GraphicRaycaster"
+		],
+	"root[2]/Canvas[0]/Start Panel": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image"
+		],
+	"root[2]/Canvas[0]/Start Panel[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[2]/Canvas[0]/Start Panel[1]/Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button"
+		],
+	"root[2]/Canvas[0]/Start Panel[1]/Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[2]/Canvas[1]/Complete Panel": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"DisableOnStart"
+		],
+	"root[2]/Canvas[1]/Complete Panel[0]/Image": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image"
+		],
+	"root[2]/Canvas[1]/Complete Panel[1]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[2]/Canvas[1]/Complete Panel[2]/Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button"
+		],
+	"root[2]/Canvas[1]/Complete Panel[2]/Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[1]/Directional Light": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.Light"
+		],
+	"root[3]/EventSystem": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.EventSystems.EventSystem",
+			"UnityEngine.EventSystems.StandaloneInputModule"
+		],
+	"root[0]/Main Camera": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.Camera",
+			"UnityEngine.GUILayer",
+			"UnityEngine.FlareLayer",
+			"UnityEngine.AudioListener"
+		]
+}

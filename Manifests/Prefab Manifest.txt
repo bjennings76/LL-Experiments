@@ -1,0 +1,259 @@
+{
+	"Assets/Character Creator/Prefabs/Body.prefab": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.Animator",
+			"ModelSwapper"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[0]/CH_BusinessMan": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[1]/CH_FireFighter": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[2]/CH_Hobo": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[3]/CH_HouseWife": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[4]/CH_Pimp": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[5]/CH_Policeman": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[6]/CH_Punk": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[7]/CH_RiotCop": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[8]/CH_Roadworker": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[9]/CH_Robber": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[10]/CH_Sheriff": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[11]/CH_StreetMan": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[12]/CH_Trucker": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Body.prefab[13]/CH_Waitress": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.Animator",
+			"ModelSwapper"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[0]/CH_BusinessMan": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[1]/CH_FireFighter": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[2]/CH_Hobo": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[3]/CH_HouseWife": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[4]/CH_Pimp": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[5]/CH_Policeman": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[6]/CH_Prostitute": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[7]/CH_Punk": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[8]/CH_RiotCop": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[9]/CH_Roadworker": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[10]/CH_Robber": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[11]/CH_Sheriff": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[12]/CH_StreetMan": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[13]/CH_Trucker": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Character Creator/Prefabs/Head.prefab[14]/CH_Waitress": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.SkinnedMeshRenderer"
+		],
+	"Assets/Plugins/Signals/Example/Buttons.prefab": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.Canvas",
+			"UnityEngine.UI.CanvasScaler",
+			"UnityEngine.UI.GraphicRaycaster"
+		],
+	"Assets/Plugins/Signals/Example/Buttons.prefab[0]/Go Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"Assets/Plugins/Signals/Example/Buttons.prefab[0]/Go Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"Assets/Plugins/Signals/Example/Buttons.prefab[1]/Stop Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"Assets/Plugins/Signals/Example/Buttons.prefab[1]/Stop Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text",
+			"Utils.Signals.SendSignalOnEvent"
+		],
+	"Assets/Plugins/Signals/Example/Cube.prefab": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.MeshFilter",
+			"UnityEngine.BoxCollider",
+			"UnityEngine.MeshRenderer",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.Rotate"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab": 
+		[
+			"UnityEngine.Transform",
+			"Utils.Signals.SignalHub"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab[0]/Buttons": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.Canvas",
+			"UnityEngine.UI.CanvasScaler",
+			"UnityEngine.UI.GraphicRaycaster"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab[0]/Buttons[0]/Go Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab[0]/Buttons[0]/Go Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab[0]/Buttons[1]/Stop Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab[0]/Buttons[1]/Stop Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"Assets/Plugins/Signals/Example/Hub.prefab[1]/Cube": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.MeshFilter",
+			"UnityEngine.BoxCollider",
+			"UnityEngine.MeshRenderer",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.Rotate"
+		]
+}

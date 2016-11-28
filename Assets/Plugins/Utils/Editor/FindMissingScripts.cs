@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
-using MiniJSON;
+using Pathfinding.Serialization.JsonFx;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -28,20 +29,25 @@ namespace Utils.Editor {
 
     [MenuItem("Tools/Find Missing Scripts in Scene")]
     public static void FindMissingInScene() {
-      Debug.Log("Searching current scene...");
-      string manifestName = GetSceneManifestName();
-      FindMissing(manifestName, (manifest, oldManifest) => {
-                    List<GameObject> tested = new List<GameObject>();
-                    foreach (GameObject go in EditorUtils.GetRootSceneObjects()) {
-                      if (tested.Contains(go)) {
-                        continue;
-                      }
+      for (int i = 0; i < SceneManager.sceneCount; i++) {
+        Scene scene = SceneManager.GetSceneAt(i);
+        Debug.Log("Searching " + scene.path);
+        string manifestName = GetSceneManifestName(scene);
+        FindMissing(manifestName, (manifest, oldManifest) => {
+          List<GameObject> tested = new List<GameObject>();
+          foreach (GameObject go in scene.GetRootGameObjects())
+          {
+            if (tested.Contains(go))
+            {
+              continue;
+            }
 
-                      string shortPath = string.Format("root[{0}]/{1}", go.transform.GetSiblingIndex(), go.name);
-                      FindInGO(go, shortPath, manifest, oldManifest, true, -1);
-                      tested.Add(go);
-                    }
-                  });
+            string shortPath = string.Format("root[{0}]/{1}", go.transform.GetSiblingIndex(), go.name);
+            FindInGO(go, shortPath, manifest, oldManifest, true, -1);
+            tested.Add(go);
+          }
+        });
+      }
     }
 
     [MenuItem("Tools/Find Missing Scripts in All Prefabs")]
@@ -69,8 +75,8 @@ namespace Utils.Editor {
                   });
     }
 
-    private static string GetSceneManifestName() {
-      string[] pieces = SceneManager.GetActiveScene().path.Replace(".unity", "").Replace("Assets/", "").Split('/');
+    private static string GetSceneManifestName(Scene scene) {
+      string[] pieces = scene.path.Replace(".unity", "").Replace("Assets/", "").Split('/');
       return pieces.AggregateString("-");
     }
 
@@ -180,11 +186,15 @@ namespace Utils.Editor {
     }
 
     private static string Serialize(object data) {
-      return Json.Serialize(data);
+			StringBuilder jsonOutput = new StringBuilder();
+			JsonWriterSettings jsonWriterSettings = new JsonWriterSettings {PrettyPrint = true};
+			JsonWriter jsonWriter = new JsonWriter(jsonOutput, jsonWriterSettings);
+			jsonWriter.Write(data);
+			return jsonOutput.ToString();
     }
 
     private static object Deserialize(string jsonText) {
-      return Json.Deserialize(jsonText);
+			return JsonReader.Deserialize(jsonText);
     }
   }
 }

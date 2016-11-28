@@ -1,0 +1,126 @@
+{
+	"root[1]/Directional Light": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.Light"
+		],
+	"root[2]/EventSystem": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.EventSystems.EventSystem",
+			"UnityEngine.EventSystems.StandaloneInputModule",
+			"UnityEngine.EventSystems.TouchInputModule"
+		],
+	"root[3]/Hub": 
+		[
+			"UnityEngine.Transform",
+			"Utils.Signals.SignalHub"
+		],
+	"root[3]/Hub[0]/Buttons": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.Canvas",
+			"UnityEngine.UI.CanvasScaler",
+			"UnityEngine.UI.GraphicRaycaster"
+		],
+	"root[3]/Hub[0]/Buttons[0]/Go Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"root[3]/Hub[0]/Buttons[0]/Go Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[3]/Hub[0]/Buttons[1]/Stop Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"root[3]/Hub[0]/Buttons[1]/Stop Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[3]/Hub[1]/Cube": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.MeshFilter",
+			"UnityEngine.BoxCollider",
+			"UnityEngine.MeshRenderer",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.Rotate"
+		],
+	"root[4]/Hub (1)": 
+		[
+			"UnityEngine.Transform",
+			"Utils.Signals.SignalHub"
+		],
+	"root[4]/Hub (1)[0]/Buttons": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.Canvas",
+			"UnityEngine.UI.CanvasScaler",
+			"UnityEngine.UI.GraphicRaycaster"
+		],
+	"root[4]/Hub (1)[0]/Buttons[0]/Go Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"root[4]/Hub (1)[0]/Buttons[0]/Go Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[4]/Hub (1)[0]/Buttons[1]/Stop Button": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Image",
+			"UnityEngine.UI.Button",
+			"Utils.Signals.SendSignalOnClick"
+		],
+	"root[4]/Hub (1)[0]/Buttons[1]/Stop Button[0]/Text": 
+		[
+			"UnityEngine.RectTransform",
+			"UnityEngine.CanvasRenderer",
+			"UnityEngine.UI.Text"
+		],
+	"root[4]/Hub (1)[1]/Cube": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.MeshFilter",
+			"UnityEngine.BoxCollider",
+			"UnityEngine.MeshRenderer",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetColorOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.SetEnableOnSignal",
+			"Utils.Signals.Rotate"
+		],
+	"root[0]/Main Camera": 
+		[
+			"UnityEngine.Transform",
+			"UnityEngine.Camera",
+			"UnityEngine.GUILayer",
+			"UnityEngine.FlareLayer",
+			"UnityEngine.AudioListener"
+		]
+}

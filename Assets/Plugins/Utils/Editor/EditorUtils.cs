@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
 namespace Utils.Editor {
@@ -268,13 +269,7 @@ namespace Utils.Editor {
     }
 
     public static IEnumerable<GameObject> GetRootSceneObjects() {
-      // TODO: Replace with 'SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects()' in Unity 5.3
-
-      HierarchyProperty prop = new HierarchyProperty(HierarchyType.GameObjects);
-      int[] expanded = new int[0];
-      while (prop.Next(expanded)) {
-        yield return prop.pptrValue as GameObject;
-      }
+      return SceneManager.GetActiveScene().GetRootGameObjects();
     }
 
     public static IEnumerable<Transform> GetRootTransforms() {
