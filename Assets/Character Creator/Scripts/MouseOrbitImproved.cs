@@ -22,6 +22,8 @@ public class MouseOrbitImproved : MonoBehaviour {
   }
 
   private void Start() {
+    Input.simulateMouseWithTouches = true;
+
     Vector3 angles = transform.eulerAngles;
     m_X = angles.y;
     m_Y = angles.x;
@@ -33,13 +35,35 @@ public class MouseOrbitImproved : MonoBehaviour {
     }
   }
 
+  private Vector3 m_LastMousePosition;
+
+  private Vector2 DragDelta { get; set; }
+
+  private static bool Pressed {
+    get {
+      return Input.GetMouseButton(0);
+    }
+  }
+
+  private bool m_Tracking;
+
   private void LateUpdate() {
-    if (!Target || !Input.GetMouseButton(0)) {
+
+    if (!Target || !Pressed) {
+      m_Tracking = false;
       return;
     }
 
-    m_X += Input.GetAxis("Mouse X")*XSpeed*Distance*0.02f;
-    m_Y -= Input.GetAxis("Mouse Y")*YSpeed*0.02f;
+    if (!m_Tracking) {
+      m_LastMousePosition = Input.mousePosition;
+      m_Tracking = true;
+    }
+
+    DragDelta = (Input.mousePosition - m_LastMousePosition)/10;
+    m_LastMousePosition = Input.mousePosition;
+
+    m_X += DragDelta.x*XSpeed*Distance*0.02f;
+    m_Y -= DragDelta.y*YSpeed*0.02f;
 
     m_Y = ClampAngle(m_Y, YMinLimit, YMaxLimit);
 

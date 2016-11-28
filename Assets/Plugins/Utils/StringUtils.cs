@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Util {
+namespace Utils {
   public static class StringUtils {
     private static Regex camelCaseRegex = new Regex(@"([\p{Ll}\p{Lo}\p{Nd}\p{Nl}])([\p{Lt}\p{Lu}])");
 

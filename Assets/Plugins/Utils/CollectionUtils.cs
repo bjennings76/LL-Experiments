@@ -5,7 +5,7 @@ using UnityEngine;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-namespace Util {
+namespace Utils {
   public static class CollectionUtils {
     public static Dictionary<TKey, TValue> DictionaryFromLists<TKey, TValue>(IList<TKey> keys, IList<TValue> values) {
       if ((keys == null) || (values == null)) {

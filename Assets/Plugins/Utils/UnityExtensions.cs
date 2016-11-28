@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public static class UnityExtensions {
     /// <summary>
     ///   Destroys all the children of the game object.

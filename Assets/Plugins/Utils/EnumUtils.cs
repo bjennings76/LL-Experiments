@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public static class EnumUtils {
     public static T PrevEnum<T>(T value) where T : struct {
       int index;

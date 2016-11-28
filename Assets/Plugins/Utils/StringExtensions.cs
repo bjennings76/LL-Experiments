@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
 
-namespace Util {
+namespace Utils {
   public static class StringExtensions {
     /// <summary>
     ///   Returns true if the <paramref name="text" /> string contans the <paramref name="search" /> string using the supplied

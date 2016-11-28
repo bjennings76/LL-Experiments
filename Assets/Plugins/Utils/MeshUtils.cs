@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public static class MeshUtils {
     public static Mesh CloneMesh(Mesh mesh) {
       Mesh clone = new Mesh();

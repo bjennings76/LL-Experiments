@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public static class V3Utils {
     public static readonly Vector3[] CardinalDirections = {Vector3.up, Vector3.down, Vector3.forward, Vector3.back, Vector3.left, Vector3.right};
 

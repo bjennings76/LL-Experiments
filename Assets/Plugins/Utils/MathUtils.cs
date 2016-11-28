@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public static class MathUtils {
     public static float ClampAngle(float a, float min = -180.0f, float max = 180.0f) {
       while (max < min) {

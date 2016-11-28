@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public static class V2Utils {
     public static float DistanceOfPointToLineSegment(Vector2 p, Vector2 v, Vector2 w) {
       Vector2 vw = w - v;

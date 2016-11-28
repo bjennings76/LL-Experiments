@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Util {
+namespace Utils {
   public class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
     private static T s_Instance;
 

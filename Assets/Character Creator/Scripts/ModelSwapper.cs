@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
-using Util;
+using Utils;
 
 public class ModelSwapper : MonoBehaviour {
   private SkinnedMeshRenderer[] m_Models;

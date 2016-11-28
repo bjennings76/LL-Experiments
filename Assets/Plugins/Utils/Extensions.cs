@@ -27,7 +27,7 @@ namespace Color32Extensions {
   }
 }
 
-namespace Util {
+namespace Utils {
   public static class Extensions {
     public static bool Approximately(this Bounds a, Bounds b) {
       return a.min.Approximately(b.min) && a.max.Approximately(b.max);

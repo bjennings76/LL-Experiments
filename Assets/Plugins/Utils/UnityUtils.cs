@@ -7,7 +7,7 @@ using DG.Tweening;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Util {
+namespace Utils {
   public static class UnityUtils {
     /// <summary>
     ///   Determines how to destroy an object based on whether or not the game is running and we are in editor mode.
